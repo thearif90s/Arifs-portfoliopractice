@@ -7,6 +7,15 @@ h1{
 h2{
     font-size: 30px;
 }
-span{
+.golden{
     color: gold;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 90%;
 }
