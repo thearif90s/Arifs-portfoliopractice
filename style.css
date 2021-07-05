@@ -10,6 +10,7 @@ h2{
 }
 .golden{
     color: gold;
+    font-weight: 400;
 }
 .flexi-container{
     display: flex;
@@ -39,4 +40,32 @@ h2{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 50px greenyellow;
+
+}
+.experiences-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:0vw;
+}
+#web-dev-experience{
+    border-right: 7px  solid;
+    border-image:linear-gradient(blue red);
+    border-image-slice: 1;
+
+}
+#baby-dev-experience{
+    border-right: 7px solid;
+    border-image:linear-gradient(greenyellow orange)
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
 }
