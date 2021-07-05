@@ -1,5 +1,6 @@
 body{
     font-family: 'Otomanopee One', sans-serif;
+    margin: 0px;
 }
 h1{
     font-size: 60px;
@@ -28,4 +29,8 @@ section{
     color: white;
     font-weight: 400;
     border-radius: 7px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
