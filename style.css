@@ -25,8 +25,7 @@ h2{
 }
 .link-button{
     text-decoration: none;
-    background-color: gold;
-    background-image: linear-gradient(to right goldenrod green);
+    background-image: linear-gradient(goldenrod, green);
     padding: 10px 40px;
     color: white;
     font-weight: 400;
@@ -57,14 +56,15 @@ h2{
 }
 #web-dev-experience{
     border-right: 7px  solid;
-    border-image:linear-gradient(blue red);
+    border-image:linear-gradient(blue, red);
     border-image-slice: 1;
 
 }
 #baby-dev-experience{
     border-right: 7px solid;
-    border-image:linear-gradient(greenyellow orange)
-    border-image-slice: 1;
+    border-image:linear-gradient(goldenrod, green) ;
+    border-image-slice:1;
+    
 }
 footer p {
     text-align: center;
